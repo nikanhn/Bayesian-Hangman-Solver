@@ -27,3 +27,8 @@ A Python-based Hangman game solver using Bayesian inference and frequency-based 
 git clone https://github.com/nikanhn/Bayesian-Hangman-Solver
 cd Bayesian-Hangman-Solver
 pip install -r requirements.txt
+```
+
+## 🕹️ Run the Game
+
+python -m gui.hangman_gui
