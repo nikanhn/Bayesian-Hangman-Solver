@@ -1,12 +1,29 @@
-# Bayesian Hangman Solver
-This project focuses on building a Bayesian hangman solver that strategically predicts letters of a word in the hangman game. 
-The solver utilizes Bayes' Rule to sequentially guess letters, aiming to maximize the chance of winning by correctly guessing the word.
+# 🧠 Bayesian Hangman Solver
 
-Hangman Game Rules
-In the hangman game, after each letter (A through Z) is guessed, the player is informed whether the letter appears in the word and its position(s). Given the evidence accumulated during the game, the goal is to determine the optimal letter to guess at each stage.
+A Python-based Hangman game solver using Bayesian inference and frequency-based prediction. Comes with an interactive GUI to visualize the AI in action.
 
-Word Counts
-The project requires the 'hw1_word_counts_05.txt' file, which contains a list of 5-letter words and their counts from a large corpus of Wall Street Journal articles. The prior probability P(w)=COUNT(w)∑w′COUNT(w′)P(w)=∑w′​COUNT(w′)COUNT(w)​ is computed from these counts.
+## 🚀 Features
 
-Results
-As a sanity check, the script will print out the fifteen most frequent and the fourteen least frequent 5-letter words. Reviewing these results provides insights into the quality of the prior probability computation.
+- 🧮 Bayesian word prediction
+- 📊 Frequency-based letter guessing
+- 🖥️ Interactive GUI (Tkinter/PyQt)
+- ✅ Simple test coverage
+- 🔁 Easy-to-extend for other wordlists or strategies
+
+## 📸 Demo
+
+![hangman-gui-demo](demo/hangman.gif)
+
+## 🧠 How It Works
+
+1. Load a vocabulary of words.
+2. Use Bayesian inference to assign probabilities to letters.
+3. Guess letters that maximize expected information gain.
+4. Update beliefs as guesses progress.
+
+## 🔧 Installation
+
+```bash
+git clone https://github.com/nikanhn/Bayesian-Hangman-Solver
+cd Bayesian-Hangman-Solver
+pip install -r requirements.txt
