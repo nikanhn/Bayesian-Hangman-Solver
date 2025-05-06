@@ -6,7 +6,7 @@ A Python-based Hangman game solver using Bayesian inference and frequency-based 
 
 - 🧮 Bayesian word prediction
 - 📊 Frequency-based letter guessing
-- 🖥️ Interactive GUI (Tkinter/PyQt)
+- 🖥️ Interactive GUI
 - ✅ Simple test coverage
 - 🔁 Easy-to-extend for other wordlists or strategies
 
