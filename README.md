@@ -12,7 +12,7 @@ A Python-based Hangman game solver using Bayesian inference and frequency-based 
 
 ## 📸 Demo
 
-![hangman-gui-demo](demo/hangman.gif)
+![hangman-gui-demo](./game.gif)
 
 ## 🧠 How It Works
 
